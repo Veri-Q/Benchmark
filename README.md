@@ -8,4 +8,8 @@ The circuits in our benchmark are described using the OpenQASM quantum assembly 
 
 ## Combinational Quantum Circuits
 
-Combinational quantum circuit is the most basic but commonly used circuits in quantum computating. In this bechmark we give circuits for most basic quantum algorithms such as Bernstein-Vazirani algorithm, quantum Fourier transform, and quantum phase estimation.
+Combinational quantum circuit is the most basic but commonly used circuits in quantum computating. In this bechmark we give circuits for most basic quantum algorithms, reversible circuits, qubit mapping and random clifford circuits.
+
+
+### Quantum Algorithm
+In this benchmark we inculue the circuits for most basic quantum algorithms auch as Bernstein-Vazirani algorithm, quantum Fourier transform, and quantum phase estimation.
