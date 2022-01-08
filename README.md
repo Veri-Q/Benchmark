@@ -26,6 +26,7 @@ In this benchmark we inculue the circuits for most basic quantum algorithms auch
 
 
 ## Dynamic Quantum Circuits
+Dynamic quantum circuit is another method for executing quantum circuits. It can be applied more easily in near term quantum computers. In this benchmark we include the dynamic quantum circuit for quantum Fourier transform and quantum phase estimation. We also provide dynamic quantum circuits ofdifferent scales.
 
 
 ## Sequential Quantum Circuits
