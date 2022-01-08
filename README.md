@@ -12,7 +12,7 @@ Combinational quantum circuit is the most basic but commonly used circuits in qu
 
 
 ### Quantum Algorithm
-In this benchmark we inculue the circuits for most basic quantum algorithms auch as Bernstein-Vazirani algorithm, quantum Fourier transform, and quantum phase estimation.
+In this benchmark we inculue the circuits for most basic quantum algorithms auch as Bernstein-Vazirani algorithm, quantum Fourier transform, and quantum phase estimation. For every algorithm we provide the circuits of three different sacles, small scale (<30 qubits), medium scale (30-100 qubits), and large scale (>1000 qubits) such that it can be applied to normal computers, super computers and special methods and other devices.
 
 
 ### Reversible Circuits
