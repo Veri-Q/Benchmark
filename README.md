@@ -16,7 +16,7 @@ In this benchmark we inculue the circuits for most basic quantum algorithms auch
 
 
 ### Reversible Circuits
-
+A classical n-bit reversible gate is a bijective mapping from the set of n-bit data onto itself. Thus the vector of input states can be always reconstructed from the vector of output states. A combinational logic circuit is reversible if it contains only reversible gate and has no fan-out. Classical reversible circuits may be implemented in quantum technology and have important applications in many quantum algorithms such as the arithmetic module of Shor's Algorithm and the oracle of Grover's Algorithm.
 
 ### Qubit Mapping
 
