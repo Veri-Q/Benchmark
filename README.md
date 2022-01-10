@@ -30,7 +30,12 @@ Dynamic quantum circuit is another method for executing quantum circuits. It can
 
 
 ## Sequential Quantum Circuits
+Sequential quantum circuits are the counterparts of classical sequential circuits. 
+A sequential quantum circuit has a synchronous clock and quantum memory. 
+In each step of its computation, it takes an input quantum state and the internal quantum state as the whole input of its combinational part, and measures part of them with the measurement outcome as the output and the internal quantum state as stored information for the next step of its computation. 
+In this benchmark, we include test cases in [WLY21].
 
+[WLY21] Qisheng Wang, Riling Li and Mingsheng Ying. Equivalence checking of sequential quantum circuits. *IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems*, Early Access, 2021. 
 
 ## Variational Quantum Circuits
 
