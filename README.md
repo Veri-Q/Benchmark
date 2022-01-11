@@ -19,6 +19,17 @@ In this benchmark we inculue the circuits for most basic quantum algorithms auch
 A classical n-bit reversible gate is a bijective mapping from the set of n-bit data onto itself. Thus the vector of input states can be always reconstructed from the vector of output states. A combinational logic circuit is reversible if it contains only reversible gate and has no fan-out. Classical reversible circuits may be implemented in quantum technology and have important applications in many quantum algorithms such as the arithmetic module of Shor's Algorithm and the oracle of Grover's Algorithm.
 
 ### Qubit Mapping
+On the current superconducting quantum processors, two-qubit gates are usually not available for all pairs of qubits but only a small part of them. In order to make all the two-quibit gates of a circuit available on a specific quantum chip, we have to map the qubits in the circuit to the qubits on the quantum chip and insert some SWAP gates. Meanwhile, we want to make sure that the modified circuit is optimal on depth or the number of inserted SWAP gates. However, since the qubit mapping problem is NP-complete, it is difficult to theoretically evaluate the performance of different algorithms. Instead, the performance can be evaluated through benchmarks. QUEKO [TC20] present an algorithm to generate benchmarks of the qubit mapping problems on specific quantum processors along with optimal solutions. We have implemented the generating algorithm in Python and generated a set of problems.
+
+The problem and solution file name have the following form *n*QBT_*d*CYC_*gn*GN_*p2*P2_*i*.(qasm, sol), where
+- *n* is the qubit number
+- *d* is the circuit depth
+- *gn* is the gate number
+- *p2* * *gn* is the number of CNOT gates
+
+The *qasm* file is the OpenQASM 2 source file. The *sol* file which contains a series of integers is the solution of the corresponding problem. For example, the series *4 2 0 3 1* means the mapping from qubit 0 to 4, 1 to 2, 2 to 0, 3 to 3, 4 to 1.
+
+[TC20] Bochen Tan, and Jason Cong. Optimality study of existing quantum computing layout synthesis tools. *IEEE Transactions on Computers*, 2020.
 
 
 ### Clifford Circuits
