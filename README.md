@@ -51,3 +51,4 @@ In this benchmark, we include test cases in [WLY21].
 
 ## Variational Quantum Circuits
 
+The benchmark on variational quantum circuits (VQC) aims to provide VQC templates of variational quantum algorithms, including variational quantum eigensolver (VQE) and quantum approximate optimization algorithm (QAOA), for everyone to use.
