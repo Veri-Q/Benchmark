@@ -8,7 +8,7 @@ The circuits in our benchmark are described using the OpenQASM quantum assembly 
 
 ## Combinational Quantum Circuits
 
-Combinational quantum circuit is the most basic but commonly used circuits in quantum computating. In this bechmark we give circuits for most basic quantum algorithms, reversible circuits, qubit mapping and random clifford circuits.
+Combinational quantum circuit is the most basic but commonly used type of circuit in quantum computating. In this bechmark we give circuits for the most basic quantum algorithms, reversible circuits, qubit mapping and random clifford circuits.
 
 
 ### Quantum Algorithm
