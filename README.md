@@ -8,7 +8,7 @@ The circuits in our benchmark are described using the OpenQASM quantum assembly 
 
 ## Combinational Quantum Circuits
 
-Combinational quantum circuit is the most basic but commonly used type of circuit in quantum computating. In this bechmark we give circuits for the most basic quantum algorithms, reversible circuits, qubit mapping and random clifford circuits.
+Combinational quantum circuit is the most basic but commonly used type of circuit in quantum computing. In this bechmark we give circuits for the most basic quantum algorithms, reversible circuits, qubit mapping and random clifford circuits.
 
 
 ### Quantum Algorithm
@@ -51,6 +51,4 @@ In this benchmark, we include test cases in [WLY21].
 
 ## Variational Quantum Circuits
 
-The benchmark on variational quantum circuits (VQC) aims to provide VQC templates of variational quantum algorithms [CAB21], including variational quantum eigensolver (VQE) and quantum approximate optimization algorithm (QAOA), for everyone to use.
-
-[[CAB21](https://doi.org/10.1038/s42254-021-00348-9)] M. Cerezo, Andrew Arrasmith, Ryan Babbush, et al. Variational quantum algorithms. *Nature Reviews Physics*, 2021, 3(9): 625-644.
+The benchmark on variational quantum circuits (VQCs, or parameterized quantum circuits) aims to provide VQC templates of variational quantum algorithms, including variational quantum eigensolver (VQE), for everyone to use.
