@@ -38,7 +38,7 @@ Clifford operation plays an important role in quantum error correction, randomiz
 [BSHM21] Sergey Bravyi, Ruslan Shaydulin, Shaohan Hu, Dmitri Maslov. Clifford circuit optimization with templates and symbolic pauli gates. *ArXiv preprint arXiv:2105.02291.*
 
 ## Dynamic Quantum Circuits
-Dynamic quantum circuit is another method for executing quantum circuits. It can be applied more easily in near term quantum computers. In this benchmark we include the dynamic quantum circuit for quantum Fourier transform and quantum phase estimation. We also provide dynamic quantum circuits ofdifferent scales.
+Dynamic quantum circuit is another method for executing quantum circuits. It can be applied more easily in near term quantum computers. In this benchmark we include the dynamic quantum circuit for quantum Fourier transform and quantum phase estimation. We also provide dynamic quantum circuits of different scales.
 
 
 ## Sequential Quantum Circuits
