@@ -1,15 +1,11 @@
-//Adder with inputs 1011 and 0011.
-OPENQASM 3;
-qubit qr[13];
-bit cr[13];
-gate ccx a,b,c{
-	ctrl @ cx a,b,c;
-}
+//Adder with inputs 1101 and 0100.
+OPENQASM 2.0;
+include "qelib1.inc";
+qreg qr[13];
 x qr[1];
-x qr[4];
+x qr[7];
 x qr[10];
-x qr[2];
-x qr[5];
+x qr[8];
 ccx qr[1],qr[2],qr[3];
 cx qr[1],qr[2];
 ccx qr[4],qr[5],qr[6];
@@ -26,29 +22,3 @@ cx qr[0],qr[2];
 cx qr[3],qr[5];
 cx qr[6],qr[8];
 cx qr[9],qr[11];
-measure qr[0] -> cr[0];
-measure qr[1] -> cr[1];
-measure qr[2] -> cr[2];
-measure qr[3] -> cr[3];
-measure qr[4] -> cr[4];
-measure qr[5] -> cr[5];
-measure qr[6] -> cr[6];
-measure qr[7] -> cr[7];
-measure qr[8] -> cr[8];
-measure qr[9] -> cr[9];
-measure qr[10] -> cr[10];
-measure qr[11] -> cr[11];
-measure qr[12] -> cr[12];
-print(cr[0]);
-print(cr[1]);
-print(cr[2]);
-print(cr[3]);
-print(cr[4]);
-print(cr[5]);
-print(cr[6]);
-print(cr[7]);
-print(cr[8]);
-print(cr[9]);
-print(cr[10]);
-print(cr[11]);
-print(cr[12]);
