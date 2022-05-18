@@ -1,11 +1,7 @@
-//Adder with inputs 1101 and 0100.
+//Adder with 4 qubits input.
 OPENQASM 2.0;
 include "qelib1.inc";
 qreg qr[13];
-x qr[1];
-x qr[7];
-x qr[10];
-x qr[8];
 ccx qr[1],qr[2],qr[3];
 cx qr[1],qr[2];
 ccx qr[4],qr[5],qr[6];
