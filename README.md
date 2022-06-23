@@ -35,7 +35,7 @@ The *qasm* file is the OpenQASM 2 source file. The *sol* file which contains a s
 ### Clifford Circuits
 Clifford operation plays an important role in quantum error correction, randomized benchmarking protocols and quantum circuit simulation. By definition, Clifford operation is unitary operation taking elements of the Pauli group on n qubits to elements of itself. Any n-qubits Clifford operation can be simulated using O(n<sup>2</sup>) Hadamard, phase and controlled-NOT gates. Clifford group elements are important and frequently encountered subsets of physical-level and fault-tolerant quantum circuits [BSHM21], and sometimes an entire quantum algorithm can be a Clifford circuit (e.g., Bernstein–Vazirani).
 
-[BSHM21] [Sergey Bravyi, Ruslan Shaydulin, Shaohan Hu, Dmitri Maslov. Clifford circuit optimization with templates and symbolic pauli gates. ArXiv preprint arXiv:2105.02291.](https://arxiv.org/abs/2105.02291)
+[BSHM21] [Sergey Bravyi, Ruslan Shaydulin, Shaohan Hu, Dmitri Maslov. Clifford circuit optimization with templates and symbolic pauli gates. *ArXiv preprint arXiv:2105.02291*.](https://arxiv.org/abs/2105.02291)
 
 ## Dynamic Quantum Circuits
 Dynamic quantum circuit is another method for executing quantum circuits. It can be applied more easily in near term quantum computers. In this benchmark we include the dynamic quantum circuit for quantum Fourier transform and quantum phase estimation. We also provide dynamic quantum circuits of different scales.
