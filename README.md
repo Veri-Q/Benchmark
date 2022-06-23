@@ -4,7 +4,7 @@
 
 VeriQBench is a benchmark for general tasks in Quantum Computing. It includes the most commonly used types of quantum circuits including combinational quantum circuits, dynamic quantum circuits, sequential quantum circuits, and variational quantum circuits. For most of the quantum circuits, our benchmark includes three scales: small scale (<20 qubits), medium scale (20-50 qubits), and large scale (>50 qubits). We also provide a series of scrips for users to generate quantum circuits of arbitrary number of qubits, see [VeriQB]. The circuits in our benchmark are described using the OpenQASM quantum assembly language and provided as '.qasm' files. 
 
-[VeriQB] [Kean Chen, Wang Fang, Ji Guan, Xin Hong, Mingyu Huang, Junyi Liu, Qisheng Wang, and Mingsheng Ying. VeriQBench: A Benchmark for Multiple Types of Quantum Circuits](https://arxiv.org/abs/2206.10880).
+[VeriQB] [Kean Chen, Wang Fang, Ji Guan, Xin Hong, Mingyu Huang, Junyi Liu, Qisheng Wang, and Mingsheng Ying. VeriQBench: A Benchmark for Multiple Types of Quantum Circuits.](https://arxiv.org/abs/2206.10880).
 
 ## Combinational Quantum Circuits
 
@@ -29,13 +29,13 @@ The problem and solution file name have the following form *n*QBT_*d*CYC_*gn*GN_
 
 The *qasm* file is the OpenQASM 2 source file. The *sol* file which contains a series of integers is the solution of the corresponding problem. For example, the series *4 2 0 3 1* means the mapping from qubit 0 to 4, 1 to 2, 2 to 0, 3 to 3, 4 to 1.
 
-[TC20] Bochen Tan, and Jason Cong. Optimality study of existing quantum computing layout synthesis tools. *IEEE Transactions on Computers*, 2020.
+[TC20] [Bochen Tan, and Jason Cong. Optimality study of existing quantum computing layout synthesis tools. *IEEE Transactions on Computers*, 2020.](https://arxiv.org/abs/2002.09783)
 
 
 ### Clifford Circuits
 Clifford operation plays an important role in quantum error correction, randomized benchmarking protocols and quantum circuit simulation. By definition, Clifford operation is unitary operation taking elements of the Pauli group on n qubits to elements of itself. Any n-qubits Clifford operation can be simulated using O(n<sup>2</sup>) Hadamard, phase and controlled-NOT gates. Clifford group elements are important and frequently encountered subsets of physical-level and fault-tolerant quantum circuits [BSHM21], and sometimes an entire quantum algorithm can be a Clifford circuit (e.g., Bernstein–Vazirani).
 
-[BSHM21] Sergey Bravyi, Ruslan Shaydulin, Shaohan Hu, Dmitri Maslov. Clifford circuit optimization with templates and symbolic pauli gates. *ArXiv preprint arXiv:2105.02291.*
+[BSHM21] [Sergey Bravyi, Ruslan Shaydulin, Shaohan Hu, Dmitri Maslov. Clifford circuit optimization with templates and symbolic pauli gates. *ArXiv preprint arXiv:2105.02291.](https://arxiv.org/abs/2105.02291)
 
 ## Dynamic Quantum Circuits
 Dynamic quantum circuit is another method for executing quantum circuits. It can be applied more easily in near term quantum computers. In this benchmark we include the dynamic quantum circuit for quantum Fourier transform and quantum phase estimation. We also provide dynamic quantum circuits of different scales.
@@ -47,7 +47,7 @@ A sequential quantum circuit has a synchronous clock and quantum memory.
 In each step of its computation, it takes an input quantum state and the internal quantum state as the whole input of its combinational part, and measures part of them with the measurement outcome as the output and the internal quantum state as stored information for the next step of its computation. 
 In this benchmark, we include test cases in [WLY21].
 
-[WLY21] Qisheng Wang, Riling Li and Mingsheng Ying. Equivalence checking of sequential quantum circuits. *IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems*, Early Access, 2021. 
+[WLY21] [Qisheng Wang, Riling Li and Mingsheng Ying. Equivalence checking of sequential quantum circuits. *IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems*, Early Access, 2021.](https://arxiv.org/abs/1811.07722)
 
 ## Variational Quantum Circuits
 
