@@ -2,7 +2,7 @@
 
 ## Overview
 
-VeriQBench is a benchmark for general tasks in Quantum Computing. It includes the most commonly used types of quantum circuits including combinational quantum circuits, dynamic quantum circuits, sequential quantum circuits, and variational quantum circuits. For most of the quantum circuits, our benchmark includes three scales: small scale (<20 qubits), medium scale (20-50 qubits), and large scale (>50 qubits). We also provide a series of scrips for users to generate quantum circuits of arbitrary number of qubits, see [VeriQB](https://arxiv.org/abs/2206.10880). The circuits in our benchmark are described using the OpenQASM quantum assembly language and provided as '.qasm' files. 
+VeriQBench is a benchmark for general tasks in Quantum Computing. It includes the most commonly used types of quantum circuits including combinational quantum circuits, dynamic quantum circuits, sequential quantum circuits, and variational quantum circuits. For most of the quantum circuits, our benchmark includes three scales: small scale (<20 qubits), medium scale (20-50 qubits), and large scale (>50 qubits). We also provide a series of scrips for users to generate quantum circuits of arbitrary number of qubits, see [[VeriQB]](https://arxiv.org/abs/2206.10880). The circuits in our benchmark are described using the OpenQASM quantum assembly language and provided as '.qasm' files. 
 
 [VeriQB] Kean Chen, Wang Fang, Ji Guan, Xin Hong, Mingyu Huang, Junyi Liu, Qisheng Wang, and Mingsheng Ying. VeriQBench: A Benchmark for Multiple Types of Quantum Circuits.
 
