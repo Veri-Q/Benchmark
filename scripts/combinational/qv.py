@@ -7,7 +7,7 @@ def random_SU(n):
     return Q
 
 def gen_qv(qubits, depth):
-    cir = QuantumCircuit(qubits, qubits)
+    qv = QuantumCircuit(qubits, qubits)
     for j in range(depth):
         perm = np.random.permutation(qubits)
         for k in range(qubits // 2):
@@ -29,4 +29,4 @@ def gen_qv(qubits, depth):
                     gate[0].params[1],gate[0].params[2], i0)
                 elif gate[0].name == "id":
                     pass
-    return cir.qasm()
+    return qv.qasm()
