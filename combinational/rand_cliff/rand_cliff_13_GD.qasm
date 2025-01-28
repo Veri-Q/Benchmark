@@ -1,5 +1,5 @@
-OPENQASM 2.0;
-include "qelib1.inc";
+OPENQASM 3.0;
+include "stdgates.inc";
 qreg q[13];
 s q[1];
 h q[1];
